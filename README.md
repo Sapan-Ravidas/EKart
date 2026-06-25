@@ -9,6 +9,18 @@ Pre-built APKs are available in the root folder:
 *   [EKart-release.apk](./EKart-release.apk?raw=true) (Signed Release)
 *   [EKart-debug.apk](./EKart-debug.apk?raw=true) (Debug with Analytics Logs)
 
+## Quick Start
+To run the app on your emulator:
+
+1. **Clone the repository.**
+2. **Add Configuration:** Open `local.properties` in the root folder and add the following line:
+   ```properties
+   BASE_URL=https://dummyjson.com/
+   ```
+3. **Open in Android Studio:** Use the latest version (Ladybug+ recommended).
+4. **Set JDK:** Ensure you are using **JDK 17** (Settings > Build Tools > Gradle).
+5. **Run:** Select the `app` configuration and click **Run** (Play button) to launch it on your emulator.
+
 ## Features
 - **Product Discovery:** Infinite scrolling with category filters (Paging 3).
 - **Flash Deals:** Real-time countdown timers.
@@ -34,15 +46,8 @@ Pre-built APKs are available in the root folder:
 
 Modules communicate via interfaces defined in `:core` to maintain isolation.
 
-## Configuration
-To run the app, add your base URL to `local.properties`:
-```properties
-BASE_URL=https://dummyjson.com/
-```
-
-## Build
-The project requires **JDK 17**.
-
+## Build Commands
+If you prefer the command line:
 ```bash
 # Generate Release APK
 ./gradlew :app:assembleRelease
