@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EKart</string>
+    <string name="cart_checkout">Checkout</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="cart_ok">OK</string>
+    <string name="cart_remove">Remove</string>
+    <string name="cart_success_message">Your order has been placed. Thank you for shopping with EKart!</string>
+    <string name="cart_success_title">Purchase Successful!</string>
+    <string name="cart_title">Your Cart</string>
+    <string name="cart_total">Total: %1$s</string>
+    <string name="cd_check">Check</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_minus">-</string>
+    <string name="cd_plus">+</string>
+    <string name="deal_flash_pools">Flash Pools</string>
+    <string name="deal_join_pool">JOIN POOL</string>
+    <string name="deal_joined">JOINED</string>
+    <string name="deal_limited_deal">LIMITED DEAL</string>
+    <string name="deal_no_active_pools">No active pools right now. Check back soon!</string>
+    <string name="deal_share">SHARE DEAL</string>
+    <string name="deal_share_text">Join this Flash Pool!\n\n%1$s\nHurry, time is running out!</string>
+    <string name="deal_was_price">was %1$s</string>
+    <string name="error_something_went_wrong">Something went wrong</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    <string name="feed_add_to_cart">Add to Cart</string>
+    <string name="feed_all">All</string>
+    <string name="feed_failed_to_load">Failed to load products</string>
+    <string name="feed_retry">Retry</string>
+    <string name="feed_share">Share</string>
+    <string name="feed_share_text">Check out this product: %1$s\nDownload EKart to see more!</string>
+    <string name="feed_stock_count">Stock: %1$d</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_deals">Deals</string>
+    <string name="nav_feed">Feed</string>
+</resources>

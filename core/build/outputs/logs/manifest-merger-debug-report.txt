@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml:2:13-83
+INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml:2:13-83
+	package
+		INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml
+	xmlns:android
+		ADDED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml:2:23-81
+uses-sdk
+INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml reason: use-sdk injection requested
+INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml
+INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml
+	android:minSdkVersion
+		INJECTED from /Users/sapanravidas/my-drive/android/learning/EKart/core/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest165680114437896416.xml
