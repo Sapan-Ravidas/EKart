@@ -6,15 +6,13 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.sapan.ekart.core.navigation.AnalyticsRoute
 import com.sapan.ekart.core.navigation.BaseRoute
 import com.sapan.ekart.core.navigation.BottomNavItem
 import com.sapan.ekart.core.navigation.FeatureApi
 import com.sapan.ekart.core.R
 import kotlinx.serialization.Serializable
 import javax.inject.Inject
-
-@Serializable
-object AnalyticsRoute : BaseRoute
 
 class AnalyticsNavigationApi @Inject constructor() : FeatureApi {
     override val route: BaseRoute = AnalyticsRoute

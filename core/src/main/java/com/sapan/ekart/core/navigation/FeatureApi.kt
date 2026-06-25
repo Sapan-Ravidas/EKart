@@ -4,11 +4,16 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 
+import kotlinx.serialization.Serializable
+
 /**
  * Base marker for all navigation routes in the app.
  * Used with Kotlin Serialization for type-safe navigation.
  */
 interface BaseRoute
+
+@Serializable
+object AnalyticsRoute : BaseRoute
 
 data class BottomNavItem(
     val titleRes: Int,

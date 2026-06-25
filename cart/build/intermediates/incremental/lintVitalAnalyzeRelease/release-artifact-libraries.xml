@@ -1,9 +1,9 @@
 <libraries>
   <library
       name=":@@:core::release"
-      jars="/Users/sapanravidas/.gradle/caches/9.4.1/transforms/8f9dc883c07c47e862e108682e181d95/transformed/out/jars/classes.jar:/Users/sapanravidas/.gradle/caches/9.4.1/transforms/8f9dc883c07c47e862e108682e181d95/transformed/out/jars/libs/R.jar"
+      jars="/Users/sapanravidas/.gradle/caches/9.4.1/transforms/930669f27d205f2952f45e00047a76c7/transformed/out/jars/classes.jar:/Users/sapanravidas/.gradle/caches/9.4.1/transforms/930669f27d205f2952f45e00047a76c7/transformed/out/jars/libs/R.jar"
       resolved="EKart:core:unspecified"
-      folder="/Users/sapanravidas/.gradle/caches/9.4.1/transforms/8f9dc883c07c47e862e108682e181d95/transformed/out"
+      folder="/Users/sapanravidas/.gradle/caches/9.4.1/transforms/930669f27d205f2952f45e00047a76c7/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
