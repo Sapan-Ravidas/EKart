@@ -109,6 +109,8 @@ class FlashDealViewModelTest {
         whenever(timerUseCase(deal.endTimeMillis)).thenReturn(flowOf(1000L, 500L, 0L))
         
         viewModel.countdownFor(deal).test {
+            // StateFlow created with stateIn always emits its initial value (0L in this case)
+            assertEquals(0L, awaitItem())
             assertEquals(1000L, awaitItem())
             assertEquals(500L, awaitItem())
             assertEquals(0L, awaitItem())

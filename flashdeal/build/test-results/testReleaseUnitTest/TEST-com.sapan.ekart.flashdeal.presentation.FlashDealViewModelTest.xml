@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sapan.ekart.flashdeal.presentation.FlashDealViewModelTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-26T02:57:58.364Z" hostname="Sapans-MacBook-Air.local" time="0.77">
+  <properties/>
+  <testcase name="uiState emits deals and cart items correctly" classname="com.sapan.ekart.flashdeal.presentation.FlashDealViewModelTest" time="0.623"/>
+  <testcase name="handleIntent JoinPool adds item to cart and logs interaction" classname="com.sapan.ekart.flashdeal.presentation.FlashDealViewModelTest" time="0.135"/>
+  <testcase name="countdownFor returns timer flow from usecase" classname="com.sapan.ekart.flashdeal.presentation.FlashDealViewModelTest" time="0.006"/>
+  <testcase name="handleIntent LeavePool removes item from cart" classname="com.sapan.ekart.flashdeal.presentation.FlashDealViewModelTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

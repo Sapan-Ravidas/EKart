@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sapan.ekart.analytics.AnalyticsRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-26T03:00:40.721Z" hostname="Sapans-MacBook-Air.local" time="0.067">
+  <properties/>
+  <testcase name="logInteraction persists interaction and drain returns same payload" classname="com.sapan.ekart.analytics.AnalyticsRepositoryTest" time="0.063"/>
+  <testcase name="clearInteractions empties stored payload" classname="com.sapan.ekart.analytics.AnalyticsRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

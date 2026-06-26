@@ -96,8 +96,17 @@ class FeedViewModelTest {
 
     @Test
     fun selectCategory_updates_selectedCategory() = runTest {
-        viewModel.handleIntent(FeedIntent.SelectCategory("beauty"))
-        assertEquals("beauty", viewModel.uiState.value.selectedCategory)
+        viewModel.uiState.test {
+            awaitItem() // Initial
+            runCurrent()
+            awaitItem() // After categories loaded
+            
+            viewModel.handleIntent(FeedIntent.SelectCategory("beauty"))
+            
+            val state = awaitItem()
+            assertEquals("beauty", state.selectedCategory)
+            cancelAndIgnoreRemainingEvents()
+        }
     }
 
     private fun fakeProducts() = listOf(
