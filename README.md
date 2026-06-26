@@ -1,4 +1,4 @@
-# EKart 🛒
+# EKart
 
 EKart is a multi-module Android e-commerce app built with Clean Architecture, Jetpack Compose, and modern Android libraries. It is designed to be offline-first and uses a type-safe navigation system.
 
