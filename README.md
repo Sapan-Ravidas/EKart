@@ -33,26 +33,36 @@ EKart is a multi-module Android e-commerce app built with Clean Architecture, Je
 
 ---
 
+## Build Variants & Security
+
+The project uses build variants to separate development tools from production code:
+
+*   **Debug Variant:** Recommended for local development. This variant includes a dedicated **Analytics Screen** where you can view recorded interaction logs in real-time. 
+*   **Release Variant:** Intended for production. In this variant, the **Analytics UI is completely removed** for security and performance—analytics sync runs purely as a background process.
+*   **Signing Note:** For security reasons, the `release.jks` keystore and associated passwords are kept private and are not included in the public repository. **If you wish to build the project locally, please use the `debug` build variant.**
+
 ## Downloads
-Pre-built APKs are available in the root folder:
+Pre-built APKs are available in the root folder for immediate testing:
 *   [EKart-release.apk](./EKart-release.apk?raw=true) (Signed Release)
 *   [EKart-debug.apk](./EKart-debug.apk?raw=true) (Debug with Analytics Logs)
+
+---
 
 ## Quick Start
 To run the app on your emulator:
 
 1. **Clone the repository.**
-2. **Add Configuration:** Open `local.properties` in the root folder and add the following:
+2. **Select Variant:** Ensure you have the **debug** variant selected in the "Build Variants" tab of Android Studio.
+3. **Add Configuration:** Open `local.properties` in the root folder and add the following:
    ```properties
    BASE_URL=https://dummyjson.com/
    ```
-3. **Set JDK:** Ensure you are using **JDK 17** (Settings > Build Tools > Gradle).
-4. **Run:** Select the `app` configuration and click **Run**.
+4. **Set JDK:** Ensure you are using **JDK 17** (Settings > Build Tools > Gradle).
+5. **Run:** Select the `app` configuration and click **Run**.
 
 ### Manual Build Commands
 ```bash
 ./gradlew clean
-./gradlew :app:assembleRelease # Generate Signed Release APK
 ./gradlew :app:assembleDebug   # Generate Debug APK
 ```
 
